@@ -1,6 +1,5 @@
 import cv2
 
-classifier = 'classifier.xml'
 face_classifier = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface.xml"
 )
